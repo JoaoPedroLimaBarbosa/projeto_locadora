@@ -1,0 +1,32 @@
+# Sistema de Gestão de Locação de Veículos
+
+Este projeto tem como objetivo desenvolver um sistema para gerenciar a locação de veículos. Ele permite o cadastro de clientes, veículos, locações e preços, além de fornecer consultas e relatórios para o administrador.
+
+## Estrutura do Banco de Dados
+
+O banco de dados é composto por quatro tabelas principais:
+
+- **Clientes**: Armazena informações sobre os clientes.
+- **Veículos**: Contém detalhes sobre os veículos disponíveis para locação.
+- **Locações**: Registra as locações feitas pelos clientes.
+- **Preços**: Mantém os preços diários dos veículos.
+
+## Consultas SQL
+
+No diretório **/dml/** você encontrará os scripts para:
+
+- Inserção de dados (`insercoes.sql`)
+- Atualização de dados (`atualizacoes.sql`)
+- Exclusão de dados (`exclusoes.sql`)
+- Consultas SQL (`consultas.sql`)
+
+## Como Usar
+
+1. **Criar o banco de dados** utilizando os scripts da pasta **/ddl/**.
+2. **Inserir os dados** utilizando o script de inserção da pasta **/dml/**.
+3. **Realizar operações** de atualização, exclusão e consultas conforme necessário.
+
+## Vídeo de Apresentação
+
+[Assista ao vídeo explicativo do projeto](https://youtu.be/6I3nWhiCuEo).
+
